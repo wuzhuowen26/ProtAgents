@@ -7,10 +7,10 @@ import openai
 import os
 import autogen
 
-OpenAI_key='####'
+OpenAI_key='sk-ySi29ec18e81c679eec836a3cd8fa447e15da1927703IOba'
 
 ######### OPENAI ###########
-os.environ['OPENAI_API_KEY']=sk-ySi29ec18e81c679eec836a3cd8fa447e15da1927703IOba
+os.environ['OPENAI_API_KEY']=OpenAI_key
 
 config_list  = autogen.config_list_from_models(model_list=["gpt-4", "gpt-3.5-turbo", "gpt-3.5-turbo-16k"])
 
